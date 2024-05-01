@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, purple,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 500px;
+    width: 500px;
+    
+    background-image: linear-gradient(to bottom right, orange,green);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.child {
+    width: 130px;
+    height: 130px;
+
+    background-color: bisque;
+    border-radius: 20px;
+    position: absolute;
+    right: 500px;
+}
+
+.child1 {
+    width: 130px;
+    height: 130px;
+
+    background-color: bisque;
+    border-radius: 20px;
+    position: absolute;
+    left: 500px;
+}
